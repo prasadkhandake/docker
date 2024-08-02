@@ -1,0 +1,148 @@
+anaconda command prompt
+
+
+cd S:\z DSP\KN ML project\mlproject
+
+S:
+
+code .
+
+
+
+vs code terminal / command prompt
+
+conda activate S:\z DSP\KN ML project\mlproject\venv
+
+
+
+conda create -p venv python==3.8 -y
+
+cls
+
+conda activate venv/
+
+
+
+git init 
+
+git commit -m "first commit"
+
+git status
+
+
+git branch -M main
+
+git remote add origin https://github.com/prasadkhandake/mlproject.git
+
+git remote -v
+
+git push -u origin main
+
+git config --global user.email
+
+git add .
+
+git commit -m "setup"
+
+
+git pull
+
+git push -u origin main
+
+
+
+python src/logger.py
+
+
+
+-----------------------------------------------------------------------------------------
+--- Morning start code to connect GitHub in vs code ---
+
+anaconda command prompt
+
+
+cd S:\z DSP\KN ML project\mlproject
+
+S:
+
+code .
+ 
+
+
+vs code terminal / command prompt
+
+conda activate S:\z DSP\KN ML project\mlproject\venv
+
+conda activate venv/
+
+git status
+
+git pull
+
+
+--- Upload code to GitHub at EOD in vs code ---
+
+git add .
+git status
+git commit -m "exception commit"
+git push -u origin main
+
+-----------------------------------------------------------------------------------------
+
+Docker
+
+vs code cmd
+
+docker build -t welcome-app .
+
+docker images
+
+docker run -p 5000:5000 welcome-app
+
+docker ps
+
+docker stop container id
+
+docker stop 66f4a387ea15
+
+
+prasadk02
+
+Prasaddoc021
+
+
+docker image rm -f welcome-app
+
+docker build -t prasadk02/welcome-app .
+
+docker tag prasadk02/welcome-app prasadk02/welcome-app1 
+
+docker push prasadk02/welcome-app:latest
+
+
+
+docker image rm -f prasadk02/welcome-app:latest
+
+docker images
+
+docker pull prasadk02/welcome-app:latest
+
+docker images
+
+docker run -d -p 5000:5000 prasadk02/welcome-app:latest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
